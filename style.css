@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -63,3 +64,70 @@ footer {
     padding: 20px 0;
     margin-top: 30px;
 }
+=======
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #ff5e62;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+>>>>>>> 0b461dffc851032f70f0198904b857edd217f2ea
