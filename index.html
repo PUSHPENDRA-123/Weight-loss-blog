@@ -3,9 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
     <title>Mera Weight Loss Journey - Pushendra Raghav</title>
+    <meta name="description" content="Pushendra Raghav shares his inspiring weight loss journey from 98 kg to 60 kg without gym. Tips, transformation timeline, and motivation included.">
+    <meta name="keywords" content="Weight Loss Journey, Pushendra Raghav, Home Workout, Diet, Transformation, Fitness, Without Gym">
+    <meta name="author" content="Pushendra Raghav">
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        /* GREEN-THEME STYLES */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #eafaf1; /* soft green background */
+            color: #333;
+            line-height: 1.6;
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #28a745, #2ecc71, #1abc9c);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 5px solid #27ae60;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+            border-radius: 0 0 20px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        header h2 {
+            margin-top: 10px;
+            font-size: 1.5em;
+            font-weight: 400;
+            color: #dfffe0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 12px;
+            color: #f0fff4;
+        }
+
+        /* Sections */
+        section {
+            background: linear-gradient(145deg, #ffffff, #f0fff4);
+            margin: 25px 0;
+            padding: 25px 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            color: #2ecc71;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #27ae60;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #1abc9c;
+            margin-bottom: 10px;
+        }
+
+        /* Lists */
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: #2ecc71;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e5128;
+            color: #fff;
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 40px;
+            border-top: 5px solid #27ae60;
+            font-size: 0.95em;
+        }
+
+        footer a {
+            color: #a8ffb0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #2ecc71;
+        }
+
+        /* Timeline Styling */
+        .timeline-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .timeline-item {
+            background: #dfffe0;
+            padding: 15px 20px;
+            border-left: 5px solid #27ae60;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        /* Charts */
+        canvas {
+            margin-top: 20px;
+            background: #f0fff4;
+            border-radius: 12px;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
 
@@ -83,8 +238,8 @@
                 datasets: [{
                     label: 'Weight (kg)',
                     data: [70, 85, 90, 95, 98, 60],
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(46, 204, 113, 0.2)',
+                    borderColor: 'rgba(46, 204, 113, 1)',
                     borderWidth: 3,
                     fill: true,
                     tension: 0.4
@@ -102,5 +257,6 @@
             }
         });
     </script>
+
 </body>
 </html>
